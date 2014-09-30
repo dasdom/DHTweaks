@@ -11,10 +11,11 @@ Tweaks let's you make changes to your iOS-App while it is running. This is espec
 Installation
 ------------
 
-1. Download the zip and add the Tweaks.xcodeproj to your workspace. 
-2. In you application target add the Tweaks framework 'Embedded Binaries'.
-3. Add `import Tweaks` in your AppDelegate.
-4. Exchange the line `var window = UIWindow?` with `var window = ShakeableWindow(frame: UIScreen.mainScreen().bounds)`.
+1. Download the zip and add the Tweaks.xcodeproj to your workspace.
+2. Chose the Tweaks scheme and you iOS device and build.
+3. In you application target add the Tweaks framework 'Embedded Binaries'.
+4. Add `import Tweaks` in your AppDelegate.
+5. Exchange the line `var window = UIWindow?` with `var window = ShakeableWindow(frame: UIScreen.mainScreen().bounds)`.
 
 Usage
 -----
