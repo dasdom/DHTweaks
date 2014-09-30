@@ -8,6 +8,8 @@ What is it?
 
 Tweaks let's you make changes to your iOS-App while it is running. This is especially useful if you are not sure about the right font size, colors or if you want to hide certain functionallities from some of your testers.
 
+![](https://raw.githubusercontent.com/dasdom/DHTweaks/master/howTo.gif)
+
 Installation
 ------------
 
