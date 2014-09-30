@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		F2053B4019DA94190054B07C /* Tweaks.h in Headers */ = {isa = PBXBuildFile; fileRef = F2053B3F19DA94190054B07C /* Tweaks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2053B4A19DA94190054B07C /* TweaksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B4919DA94190054B07C /* TweaksTests.swift */; };
+		F2053B5C19DA945B0054B07C /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B5319DA945B0054B07C /* CategoriesTableViewController.swift */; };
+		F2053B5D19DA945B0054B07C /* CollectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B5419DA945B0054B07C /* CollectionsTableViewController.swift */; };
+		F2053B5E19DA945B0054B07C /* ShakeableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B5519DA945B0054B07C /* ShakeableWindow.swift */; };
+		F2053B5F19DA945B0054B07C /* StepperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B5619DA945B0054B07C /* StepperTableViewCell.swift */; };
+		F2053B6019DA945B0054B07C /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B5719DA945B0054B07C /* SwitchTableViewCell.swift */; };
+		F2053B6119DA945B0054B07C /* Tweak.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B5819DA945B0054B07C /* Tweak.swift */; };
+		F2053B6219DA945B0054B07C /* TweakCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B5919DA945B0054B07C /* TweakCategory.swift */; };
+		F2053B6319DA945B0054B07C /* TweakCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B5A19DA945B0054B07C /* TweakCollection.swift */; };
+		F2053B6419DA945B0054B07C /* TweakStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2053B5B19DA945B0054B07C /* TweakStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +27,15 @@
 		F2053B4519DA94190054B07C /* TweaksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweaksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2053B4819DA94190054B07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2053B4919DA94190054B07C /* TweaksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweaksTests.swift; sourceTree = "<group>"; };
+		F2053B5319DA945B0054B07C /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		F2053B5419DA945B0054B07C /* CollectionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionsTableViewController.swift; sourceTree = "<group>"; };
+		F2053B5519DA945B0054B07C /* ShakeableWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeableWindow.swift; sourceTree = "<group>"; };
+		F2053B5619DA945B0054B07C /* StepperTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperTableViewCell.swift; sourceTree = "<group>"; };
+		F2053B5719DA945B0054B07C /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		F2053B5819DA945B0054B07C /* Tweak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweak.swift; sourceTree = "<group>"; };
+		F2053B5919DA945B0054B07C /* TweakCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweakCategory.swift; sourceTree = "<group>"; };
+		F2053B5A19DA945B0054B07C /* TweakCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweakCollection.swift; sourceTree = "<group>"; };
+		F2053B5B19DA945B0054B07C /* TweakStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweakStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,15 @@
 			isa = PBXGroup;
 			children = (
 				F2053B3F19DA94190054B07C /* Tweaks.h */,
+				F2053B5319DA945B0054B07C /* CategoriesTableViewController.swift */,
+				F2053B5419DA945B0054B07C /* CollectionsTableViewController.swift */,
+				F2053B5519DA945B0054B07C /* ShakeableWindow.swift */,
+				F2053B5619DA945B0054B07C /* StepperTableViewCell.swift */,
+				F2053B5719DA945B0054B07C /* SwitchTableViewCell.swift */,
+				F2053B5819DA945B0054B07C /* Tweak.swift */,
+				F2053B5919DA945B0054B07C /* TweakCategory.swift */,
+				F2053B5A19DA945B0054B07C /* TweakCollection.swift */,
+				F2053B5B19DA945B0054B07C /* TweakStore.swift */,
 				F2053B3D19DA94190054B07C /* Supporting Files */,
 			);
 			path = Tweaks;
@@ -196,6 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2053B6319DA945B0054B07C /* TweakCollection.swift in Sources */,
+				F2053B5C19DA945B0054B07C /* CategoriesTableViewController.swift in Sources */,
+				F2053B5E19DA945B0054B07C /* ShakeableWindow.swift in Sources */,
+				F2053B6019DA945B0054B07C /* SwitchTableViewCell.swift in Sources */,
+				F2053B5D19DA945B0054B07C /* CollectionsTableViewController.swift in Sources */,
+				F2053B6419DA945B0054B07C /* TweakStore.swift in Sources */,
+				F2053B6119DA945B0054B07C /* Tweak.swift in Sources */,
+				F2053B6219DA945B0054B07C /* TweakCategory.swift in Sources */,
+				F2053B5F19DA945B0054B07C /* StepperTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
