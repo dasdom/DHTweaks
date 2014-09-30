@@ -12,7 +12,7 @@ Installation
 ------------
 
 1. Download the zip and add the Tweaks.xcodeproj to your workspace. 
-2. In you application target add the Tweaks framework in the general tab.
+2. In you application target add the Tweaks framework 'Embedded Binaries'.
 3. Add `import Tweaks` in your AppDelegate.
 4. Exchange the line `var window = UIWindow?` with `var window = ShakeableWindow(frame: UIScreen.mainScreen().bounds)`.
 
