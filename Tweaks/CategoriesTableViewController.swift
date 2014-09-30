@@ -23,8 +23,8 @@ public class CategoriesTableViewController: UITableViewController {
         self.title = "Tweaks"
     }
     
-    override public func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
+    override public func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Done, target: self, action: "dismiss:")
     }

@@ -28,6 +28,12 @@ class CollectionsTableViewController: UITableViewController {
         tableView.registerClass(SwitchTableViewCell.self, forCellReuseIdentifier: "SwitchCell")
         tableView.rowHeight = 44
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Done, target: self, action: "dismiss:")
+    }
 
     // MARK: - Table view data source
 
@@ -127,4 +133,8 @@ class CollectionsTableViewController: UITableViewController {
         return indexPath
     }
     
+    func dismiss(sender: UIBarButtonItem) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+
 }

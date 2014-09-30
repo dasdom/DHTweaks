@@ -12,9 +12,14 @@ import UIKit
 public class Tweak<T: Any> {
     let tweakIdentifier: String
     let name: String
-    let action: ((Tweak) -> ())?
-    let defaultValue: T
-    var storedCurrentValue: T?
+    private let action: ((Tweak) -> ())?
+    private let defaultValue: T
+    private var storedCurrentValue: T?
+    
+    private var minimumValue: T?
+    private var maximumValue: T?
+    private var stepValue: T?
+    
     var currentValue: T? {
         get {
             return self.storedCurrentValue ?? defaultValue
@@ -71,9 +76,6 @@ public class Tweak<T: Any> {
             }
         }
     }
-    var minimumValue: T?
-    var maximumValue: T?
-    var stepValue: T?
     
     init(identifier: String, name: String, defaultValue: T) {
         self.tweakIdentifier = identifier
